@@ -1,0 +1,14 @@
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\bin\Debug\net9.0\Equatio.exe
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\bin\Debug\net9.0\Equatio.deps.json
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\bin\Debug\net9.0\Equatio.runtimeconfig.json
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\bin\Debug\net9.0\Equatio.dll
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\bin\Debug\net9.0\Equatio.pdb
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\Equatio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\Equatio.AssemblyInfoInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\Equatio.AssemblyInfo.cs
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\Equatio.csproj.CoreCompileInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\Equatio.dll
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\refint\Equatio.dll
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\Equatio.pdb
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\Equatio.genruntimeconfig.cache
+C:\Users\tasos\Desktop\FUCKCODING\Equatio\obj\Debug\net9.0\ref\Equatio.dll
