@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CommunityDetection", "CommunityDetection.pyproj", "{73CE6711-5132-42AD-A872-977ED987CFFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73CE6711-5132-42AD-A872-977ED987CFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CE6711-5132-42AD-A872-977ED987CFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0995FCF2-C4D1-4BA1-B1A1-04B5A5CEB1B9}
+	EndGlobalSection
+EndGlobal
