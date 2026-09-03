@@ -1,0 +1,14 @@
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\bin\Debug\net9.0\Chess2026.exe
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\bin\Debug\net9.0\Chess2026.deps.json
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\bin\Debug\net9.0\Chess2026.runtimeconfig.json
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\bin\Debug\net9.0\Chess2026.dll
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\bin\Debug\net9.0\Chess2026.pdb
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\Chess2026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\Chess2026.AssemblyInfoInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\Chess2026.AssemblyInfo.cs
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\Chess2026.csproj.CoreCompileInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\Chess2026.dll
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\refint\Chess2026.dll
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\Chess2026.pdb
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\Chess2026.genruntimeconfig.cache
+C:\Users\tasos\Desktop\FUCKCODING\Chess2026\obj\Debug\net9.0\ref\Chess2026.dll
