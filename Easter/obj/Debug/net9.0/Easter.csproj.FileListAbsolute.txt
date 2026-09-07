@@ -1,0 +1,14 @@
+C:\Users\tasos\Desktop\FUCKCODING\Easter\bin\Debug\net9.0\Easter.exe
+C:\Users\tasos\Desktop\FUCKCODING\Easter\bin\Debug\net9.0\Easter.deps.json
+C:\Users\tasos\Desktop\FUCKCODING\Easter\bin\Debug\net9.0\Easter.runtimeconfig.json
+C:\Users\tasos\Desktop\FUCKCODING\Easter\bin\Debug\net9.0\Easter.dll
+C:\Users\tasos\Desktop\FUCKCODING\Easter\bin\Debug\net9.0\Easter.pdb
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\Easter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\Easter.AssemblyInfoInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\Easter.AssemblyInfo.cs
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\Easter.csproj.CoreCompileInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\Easter.dll
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\refint\Easter.dll
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\Easter.pdb
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\Easter.genruntimeconfig.cache
+C:\Users\tasos\Desktop\FUCKCODING\Easter\obj\Debug\net9.0\ref\Easter.dll
