@@ -1,0 +1,14 @@
+C:\Users\tasos\Desktop\FUCKCODING\calendar\bin\Debug\net9.0\calendar.exe
+C:\Users\tasos\Desktop\FUCKCODING\calendar\bin\Debug\net9.0\calendar.deps.json
+C:\Users\tasos\Desktop\FUCKCODING\calendar\bin\Debug\net9.0\calendar.runtimeconfig.json
+C:\Users\tasos\Desktop\FUCKCODING\calendar\bin\Debug\net9.0\calendar.dll
+C:\Users\tasos\Desktop\FUCKCODING\calendar\bin\Debug\net9.0\calendar.pdb
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\calendar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\calendar.AssemblyInfoInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\calendar.AssemblyInfo.cs
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\calendar.csproj.CoreCompileInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\calendar.dll
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\refint\calendar.dll
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\calendar.pdb
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\calendar.genruntimeconfig.cache
+C:\Users\tasos\Desktop\FUCKCODING\calendar\obj\Debug\net9.0\ref\calendar.dll
