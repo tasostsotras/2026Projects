@@ -1,0 +1,556 @@
+[
+    {
+        "id": "e68360b499a4fae1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "efd38afab684d74e",
+        "type": "mqtt-broker",
+        "name": "mosquitto",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "tab1",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard"
+    },
+    {
+        "id": "d75cd1e21f9762f0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "32d424e421564d5f",
+        "type": "mqtt-broker",
+        "name": "localhost",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7e38c817dd6c1877",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "tab1",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "eb550a64606050f5",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "tab1",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "mqtt_in",
+        "type": "mqtt in",
+        "z": "e68360b499a4fae1",
+        "name": "Home Status",
+        "topic": "home_status",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32d424e421564d5f",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "json_node"
+            ]
+        ]
+    },
+    {
+        "id": "json_node",
+        "type": "json",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "split_function"
+            ]
+        ]
+    },
+    {
+        "id": "split_function",
+        "type": "function",
+        "z": "e68360b499a4fae1",
+        "name": "Split Data",
+        "func": "let d = msg.payload;\n\n// DEBUG για να δούμε τι έρχεται\nnode.warn(d);\n\nreturn [\n    { payload: Number(d.temperature) || 0 },\n    { payload: Number(d.humidity) || 0 },\n    { payload: \"Door: \" + d.door + \", Window: \" + d.window },\n    { payload: d }\n];",
+        "outputs": 4,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "temp_gauge",
+                "ac84c4472fe74e20"
+            ],
+            [
+                "hum_gauge"
+            ],
+            [
+                "door_text"
+            ],
+            [
+                "thermostat"
+            ]
+        ]
+    },
+    {
+        "id": "temp_gauge",
+        "type": "ui_gauge",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "group": "7e38c817dd6c1877",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}} °C",
+        "min": 0,
+        "max": 40,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "hum_gauge",
+        "type": "ui_gauge",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "group": "7e38c817dd6c1877",
+        "order": 3,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 100,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "door_text",
+        "type": "ui_text",
+        "z": "e68360b499a4fae1",
+        "group": "7e38c817dd6c1877",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 720,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "thermostat",
+        "type": "function",
+        "z": "e68360b499a4fae1",
+        "name": "Thermostat Logic",
+        "func": "let desired = flow.get(\"desiredTemp\") || 22;\nlet on = flow.get(\"thermostatOn\") || false;\nlet current = msg.payload.temperature;\n\nif (!on) {\n    msg.payload = \"HEATING_OFF\";\n} else if (current < desired) {\n    msg.payload = \"HEATING_ON\";\n} else {\n    msg.payload = \"HEATING_OFF\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "x": 720,
+        "y": 380,
+        "wires": [
+            [
+                "mqtt_out",
+                "9692e3140c8c683b"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out",
+        "type": "mqtt out",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "topic": "home_control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32d424e421564d5f",
+        "x": 920,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "switch",
+        "type": "ui_switch",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "label": "Thermostat",
+        "tooltip": "",
+        "group": "7e38c817dd6c1877",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "onvalue": "true",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 170,
+        "y": 380,
+        "wires": [
+            [
+                "store_switch"
+            ]
+        ]
+    },
+    {
+        "id": "store_switch",
+        "type": "function",
+        "z": "e68360b499a4fae1",
+        "name": "Store ON/OFF",
+        "func": "flow.set(\"thermostatOn\", msg.payload === \"true\");\nreturn null;",
+        "outputs": 1,
+        "x": 370,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "slider",
+        "type": "ui_slider",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "label": "Desired Temp",
+        "tooltip": "",
+        "group": "7e38c817dd6c1877",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "topicType": "str",
+        "min": 10,
+        "max": 30,
+        "step": "",
+        "className": "",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "store_temp"
+            ]
+        ]
+    },
+    {
+        "id": "store_temp",
+        "type": "function",
+        "z": "e68360b499a4fae1",
+        "name": "Store Temp",
+        "func": "flow.set(\"desiredTemp\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "x": 370,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac84c4472fe74e20",
+        "type": "ui_chart",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "group": "7e38c817dd6c1877",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "temperature chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9692e3140c8c683b",
+        "type": "debug",
+        "z": "e68360b499a4fae1",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 200,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "79281e5c65799c9a",
+        "type": "inject",
+        "z": "e68360b499a4fae1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"temperature\": 25,   \"humidity\": 60,   \"door\": \"closed\",   \"window\": \"open\" }",
+        "payloadType": "json",
+        "x": 550,
+        "y": 40,
+        "wires": [
+            [
+                "json_node"
+            ]
+        ],
+        "info": "{\n  \"temperature\": 25,\n  \"humidity\": 60,\n  \"door\": \"closed\",\n  \"window\": \"open\"\n}"
+    },
+    {
+        "id": "db44248900717d6c",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
