@@ -1,0 +1,14 @@
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\bin\Debug\net9.0\NumberConversions.exe
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\bin\Debug\net9.0\NumberConversions.deps.json
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\bin\Debug\net9.0\NumberConversions.runtimeconfig.json
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\bin\Debug\net9.0\NumberConversions.dll
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\bin\Debug\net9.0\NumberConversions.pdb
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\NumberConversions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\NumberConversions.AssemblyInfoInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\NumberConversions.AssemblyInfo.cs
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\NumberConversions.csproj.CoreCompileInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\NumberConversions.dll
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\refint\NumberConversions.dll
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\NumberConversions.pdb
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\NumberConversions.genruntimeconfig.cache
+C:\Users\tasos\Desktop\FUCKCODING\NumberConversions\obj\Debug\net9.0\ref\NumberConversions.dll
