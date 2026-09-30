@@ -1,0 +1,14 @@
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\bin\Debug\net9.0\ALTER.exe
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\bin\Debug\net9.0\ALTER.deps.json
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\bin\Debug\net9.0\ALTER.runtimeconfig.json
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\bin\Debug\net9.0\ALTER.dll
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\bin\Debug\net9.0\ALTER.pdb
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ALTER.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ALTER.AssemblyInfoInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ALTER.AssemblyInfo.cs
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ALTER.csproj.CoreCompileInputs.cache
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ALTER.dll
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\refint\ALTER.dll
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ALTER.pdb
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ALTER.genruntimeconfig.cache
+C:\Users\tasos\Desktop\FUCKCODING\ALTER\obj\Debug\net9.0\ref\ALTER.dll
